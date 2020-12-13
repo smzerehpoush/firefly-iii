@@ -76,6 +76,8 @@ class TransactionCurrencySeeder extends Seeder
         $currencies[] = ['code' => 'ILS', 'name' => 'Israeli new shekel', 'symbol' => '₪', 'decimal_places' => 2];
         $currencies[] = ['code' => 'CHF', 'name' => 'Swiss franc', 'symbol' => 'CHF', 'decimal_places' => 2];
         $currencies[] = ['code' => 'HRK', 'name' => 'Croatian kuna', 'symbol' => 'kn', 'decimal_places' => 2];
+        $currencies[] = ['code' => 'IRR', 'name' => 'Iranian Rial', 'symbol' => '﷼', 'decimal_places' => 1];
+        $currencies[] = ['code' => 'IRT', 'name' => 'Iranian Toman', 'symbol' => 'تومان', 'decimal_places' => 1];
 
         foreach ($currencies as $currency) {
             try {
